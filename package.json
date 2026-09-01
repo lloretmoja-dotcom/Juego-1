@@ -1,0 +1,24 @@
+{
+  "name": "atrapa-estrellas",
+  "version": "1.0.0",
+  "description": "Juego infantil hipercasual - Atrapa Estrellas",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'No build step needed for vanilla HTML/JS'",
+    "sync": "npx cap sync",
+    "android": "npx cap open android",
+    "ios": "npx cap open ios"
+  },
+  "keywords": ["game", "kids", "mobile", "capacitor"],
+  "author": "Tu Empresa",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/ios": "^6.0.0",
+    "@capacitor-community/admob": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
